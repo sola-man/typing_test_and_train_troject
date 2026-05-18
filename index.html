@@ -1,11 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Page</title>
-</head>
-<body>
-    <p>Hello, world! This is my first HTML page.</p>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Typing Speed Test | Precision Typing</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1> TYPING SPEED MASTER </h1>
+
+			<div class="stats">
+				<div class="stat">
+					<div class="stat-value" id="time">0</div>
+					<div class="stat-label"> TIME (s)</div>
+				</div>
+				<div class="stat">
+					<div class="stat-value" id="wpm">0</div>
+					<div class="stat-label"> WPM</div>
+				</div>
+				<div class="stat">
+					<div class="stat-value" id="accuracy">100</div>
+					<div class="stat-label"> ACCURACY %</div>
+				</div>
+			</div>
+
+			<div class="text-display" id="textDisplay"></div>
+
+			<textarea
+				id="userInput"
+				rows="5"
+				placeholder="✨ Click 'Start Test' & type exactly what you see above... ✨"
+				disabled
+			></textarea>
+
+			<button id="startBtn">START TEST</button>
+
+			<div class="results" id="results"></div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
 </html>
