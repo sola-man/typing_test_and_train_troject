@@ -9,7 +9,7 @@ A beautiful, real-time typing speed test with WPM calculation and accuracy track
 - Responsive design
 
 ## Live Demo
-[Click here to test your typing speed](https://sola-man.github.io/typing-speed-test)
+[Click here to test your typing speed]([https://sola-man.github.io/typing-speed-test](https://sola-man.github.io/typing_test_and_train_troject/))
 
 ## Local Usage
 Simply open `index.html` in any modern browser.
